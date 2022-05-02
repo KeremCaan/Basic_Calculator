@@ -17,5 +17,6 @@ val x = Scanner(System.`in`)
         2 -> println("Sonuç: ${sayi1-sayi2}")
         3 -> println("Sonuç: ${sayi1*sayi2}")
         4 -> println("Sonuç: ${sayi1/sayi2}")
+        else -> println("Bu işlem yapılamaz. Lütfen geçerli bir işlem kodu girin.")
     }
 }
